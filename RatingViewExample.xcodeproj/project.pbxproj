@@ -17,7 +17,36 @@
 		8FDEA7101BC05B32000A0372 /* rating-star-empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEA70F1BC05B32000A0372 /* rating-star-empty@2x.png */; };
 		8FDEA7121BC05B4C000A0372 /* rating-star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEA7111BC05B4C000A0372 /* rating-star@2x.png */; };
 		8FDEA7141BC05D59000A0372 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDEA7131BC05D59000A0372 /* sample.png */; };
+		9D4B10441FD86F7400C255B5 /* SRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4B10421FD86F7400C255B5 /* SRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D4B10471FD86F7400C255B5 /* SRatingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4B10401FD86F7400C255B5 /* SRatingView.framework */; };
+		9D4B10481FD86F7400C255B5 /* SRatingView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4B10401FD86F7400C255B5 /* SRatingView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D4B104D1FD86F9300C255B5 /* SRatingView.h in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEA6D41BC0506F000A0372 /* SRatingView.h */; };
+		9D4B104E1FD86F9300C255B5 /* SRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEA6D51BC0506F000A0372 /* SRatingView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D4B10451FD86F7400C255B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FDEA6A31BC05057000A0372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D4B103F1FD86F7400C255B5;
+			remoteInfo = SRatingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9D4B104C1FD86F7400C255B5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9D4B10481FD86F7400C255B5 /* SRatingView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8FDEA6AB1BC05057000A0372 /* RatingViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,10 +66,22 @@
 		8FDEA70F1BC05B32000A0372 /* rating-star-empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rating-star-empty@2x.png"; sourceTree = "<group>"; };
 		8FDEA7111BC05B4C000A0372 /* rating-star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rating-star@2x.png"; sourceTree = "<group>"; };
 		8FDEA7131BC05D59000A0372 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+		9D4B10401FD86F7400C255B5 /* SRatingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4B10421FD86F7400C255B5 /* SRatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRatingView.h; sourceTree = "<group>"; };
+		9D4B10431FD86F7400C255B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D4B10501FD86FA100C255B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8FDEA6A81BC05057000A0372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4B10471FD86F7400C255B5 /* SRatingView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4B103C1FD86F7400C255B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,7 +96,9 @@
 			children = (
 				8FDEA6AD1BC05057000A0372 /* RatingViewExample */,
 				8FDEA6C71BC05057000A0372 /* RatingViewExampleTests */,
+				9D4B10411FD86F7400C255B5 /* SRatingView */,
 				8FDEA6AC1BC05057000A0372 /* Products */,
+				9D4B104F1FD86FA000C255B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				8FDEA6AB1BC05057000A0372 /* RatingViewExample.app */,
+				9D4B10401FD86F7400C255B5 /* SRatingView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +157,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9D4B10411FD86F7400C255B5 /* SRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				9D4B10421FD86F7400C255B5 /* SRatingView.h */,
+				9D4B10431FD86F7400C255B5 /* Info.plist */,
+			);
+			path = SRatingView;
+			sourceTree = "<group>";
+		};
+		9D4B104F1FD86FA000C255B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D4B10501FD86FA100C255B5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9D4B103D1FD86F7400C255B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4B10441FD86F7400C255B5 /* SRatingView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		8FDEA6AA1BC05057000A0372 /* RatingViewExample */ = {
@@ -123,15 +195,35 @@
 				8FDEA6A71BC05057000A0372 /* Sources */,
 				8FDEA6A81BC05057000A0372 /* Frameworks */,
 				8FDEA6A91BC05057000A0372 /* Resources */,
+				9D4B104C1FD86F7400C255B5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9D4B10461FD86F7400C255B5 /* PBXTargetDependency */,
 			);
 			name = RatingViewExample;
 			productName = RatingViewExample;
 			productReference = 8FDEA6AB1BC05057000A0372 /* RatingViewExample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		9D4B103F1FD86F7400C255B5 /* SRatingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D4B104B1FD86F7400C255B5 /* Build configuration list for PBXNativeTarget "SRatingView" */;
+			buildPhases = (
+				9D4B103B1FD86F7400C255B5 /* Sources */,
+				9D4B103C1FD86F7400C255B5 /* Frameworks */,
+				9D4B103D1FD86F7400C255B5 /* Headers */,
+				9D4B103E1FD86F7400C255B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRatingView;
+			productName = SRatingView;
+			productReference = 9D4B10401FD86F7400C255B5 /* SRatingView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -144,6 +236,10 @@
 				TargetAttributes = {
 					8FDEA6AA1BC05057000A0372 = {
 						CreatedOnToolsVersion = 6.3;
+					};
+					9D4B103F1FD86F7400C255B5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -161,6 +257,7 @@
 			projectRoot = "";
 			targets = (
 				8FDEA6AA1BC05057000A0372 /* RatingViewExample */,
+				9D4B103F1FD86F7400C255B5 /* SRatingView */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +276,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9D4B103E1FD86F7400C255B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -193,7 +297,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9D4B103B1FD86F7400C255B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4B104D1FD86F9300C255B5 /* SRatingView.h in Sources */,
+				9D4B104E1FD86F9300C255B5 /* SRatingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D4B10461FD86F7400C255B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D4B103F1FD86F7400C255B5 /* SRatingView */;
+			targetProxy = 9D4B10451FD86F7400C255B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8FDEA6B81BC05057000A0372 /* Main.storyboard */ = {
@@ -301,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RatingViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,9 +433,91 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RatingViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D4B10491FD86F7400C255B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SRatingView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wearehathway.SRatingView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D4B104A1FD86F7400C255B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SRatingView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wearehathway.SRatingView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -336,6 +540,16 @@
 				8FDEA6D01BC05057000A0372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D4B104B1FD86F7400C255B5 /* Build configuration list for PBXNativeTarget "SRatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D4B10491FD86F7400C255B5 /* Debug */,
+				9D4B104A1FD86F7400C255B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
