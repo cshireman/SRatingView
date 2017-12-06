@@ -21,6 +21,7 @@
 		9D4B10801FD879FF00C255B5 /* RatingView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4B10781FD879FF00C255B5 /* RatingView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D4B10841FD87A1100C255B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4B10501FD86FA100C255B5 /* UIKit.framework */; };
 		9D4B10861FD87A4000C255B5 /* SRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEA6D51BC0506F000A0372 /* SRatingView.m */; };
+		9D4B108E1FD87BCF00C255B5 /* SRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FDEA6D41BC0506F000A0372 /* SRatingView.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +182,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4B108E1FD87BCF00C255B5 /* SRatingView.h in Headers */,
 				9D4B107C1FD879FF00C255B5 /* RatingView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
