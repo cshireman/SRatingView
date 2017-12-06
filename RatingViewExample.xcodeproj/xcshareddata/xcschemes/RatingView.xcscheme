@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8FDEA6AA1BC05057000A0372"
-               BuildableName = "RatingViewExample.app"
-               BlueprintName = "RatingViewExample"
+               BlueprintIdentifier = "9D4B10771FD879FF00C255B5"
+               BuildableName = "RatingView.framework"
+               BlueprintName = "RatingView"
                ReferencedContainer = "container:RatingViewExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -30,15 +30,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8FDEA6AA1BC05057000A0372"
-            BuildableName = "RatingViewExample.app"
-            BlueprintName = "RatingViewExample"
-            ReferencedContainer = "container:RatingViewExample.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -53,16 +44,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8FDEA6AA1BC05057000A0372"
-            BuildableName = "RatingViewExample.app"
-            BlueprintName = "RatingViewExample"
+            BlueprintIdentifier = "9D4B10771FD879FF00C255B5"
+            BuildableName = "RatingView.framework"
+            BlueprintName = "RatingView"
             ReferencedContainer = "container:RatingViewExample.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -72,16 +62,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8FDEA6AA1BC05057000A0372"
-            BuildableName = "RatingViewExample.app"
-            BlueprintName = "RatingViewExample"
+            BlueprintIdentifier = "9D4B10771FD879FF00C255B5"
+            BuildableName = "RatingView.framework"
+            BlueprintName = "RatingView"
             ReferencedContainer = "container:RatingViewExample.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
