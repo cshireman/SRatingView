@@ -15,6 +15,12 @@ The easiest way to use SRatingView in your app is via [CocoaPods](http://cocoapo
 1. Add the following line in the project's Podfile file: `pod 'SRatingView' `
 2. Run the command `pod install` from the Podfile folder directory.
 
+You can also install the package using Carthage
+
+1. Add the following line in the project's cartfile file: `github "cshireman/SRatingReview" `
+2. Run the command `carthage update SRatingReview` from the project directory.
+3. Copy the resulting framework to your project
+
 ## Usage
 
 SRatingView requires an initial setup to display the rate value correctly. 
